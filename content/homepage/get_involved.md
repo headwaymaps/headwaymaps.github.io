@@ -25,6 +25,3 @@ header_menu: true
     </a>
 </p>
 {{< /rawhtml >}}
-
-{{<icon class="fa fa-envelope">}}&nbsp;[Email me](mailto:ellen@ellenhp.me)
-

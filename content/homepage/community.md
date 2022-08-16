@@ -16,4 +16,4 @@ This project would be impossible without the tireless work of the OpenStreetMap 
 * [MobilityData database](https://database.mobilitydata.org/)
 * And many others
 
-Additionally, Headway is able to automate a lot of the build process thanks to the [BBBike extract service](https://extract.bbbike.org/).
+Additionally, Headway is able to automate much of the build process thanks to the [BBBike extract service](https://extract.bbbike.org/).

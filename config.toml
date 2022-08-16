@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://about.maps.earth/'
 languageCode = 'en-us'
-title = 'maps.earth'
+title = 'About maps.earth'
 theme = "hugo-scroll"
 
 # This is a "one page"-website, so we do not need these kinds of pages...

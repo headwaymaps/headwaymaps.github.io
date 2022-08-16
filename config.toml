@@ -1,6 +1,6 @@
 baseURL = 'https://about.maps.earth/'
 languageCode = 'en-us'
-title = 'About maps.earth'
+title = 'maps.earth - open source maps for everyone'
 theme = "hugo-scroll"
 
 # This is a "one page"-website, so we do not need these kinds of pages...

@@ -14,7 +14,7 @@ defaultContentLanguage = "en"
     copyright = "© Headway Contributors"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Open-source maps for everyone"
+    description = "Powered by Headway and OpenStreetMap"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/logo.png"

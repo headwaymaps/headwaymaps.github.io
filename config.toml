@@ -1,4 +1,4 @@
-baseURL = 'https://about.maps.earth/'
+baseURL = 'http://about.maps.earth/'
 languageCode = 'en-us'
 title = 'About maps.earth'
 theme = "hugo-scroll"

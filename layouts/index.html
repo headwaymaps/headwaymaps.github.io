@@ -10,9 +10,11 @@
             {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
             <p>
-                <a class="github-button" href="https://github.com/headwaymaps/headway" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star headwaymaps/headway on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/headwaymaps/headway/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork headwaymaps/headway on GitHub">Fork</a>
-                <a class="github-button" href="https://github.com/sponsors/ellenhp" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @ellenhp on GitHub">Sponsor</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/headwaymaps/headway?style=social">
+                <img alt="GitHub forks" src="https://img.shields.io/github/forks/headwaymaps/headway?style=social">
+                <img alt="Matrix" src="https://img.shields.io/matrix/headway:matrix.org">
+                <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/ellenhp">
+                <img alt="Liberapay patrons" src="https://img.shields.io/liberapay/patrons/ellenhp">
             </p>
 
             {{ range where $sections ".Params.header_menu" "eq" true }}

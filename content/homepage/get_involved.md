@@ -4,7 +4,7 @@ weight: 4
 header_menu: true
 ---
 
-[Headway](https://github.com/headwaymaps/headway) is open-source software, and could use more contributors! Development takes place on GitHub. We don't have a code of conduct yet but please be kind. We're all doing our best, and no software is perfect.
+[Headway](https://github.com/headwaymaps/headway) is open-source software, and could use more contributors and supporters! The project especially needs frontend contributors and people willing to help fund the demo infrastructure. Development takes place on GitHub. We don't have a code of conduct yet but please be kind. We're all doing our best, and no software is perfect.
 
 {{< rawhtml >}}
 <p>

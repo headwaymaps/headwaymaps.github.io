@@ -7,7 +7,7 @@ header_menu: true
 [maps.earth](https://maps.earth/) is a planet-scale installation of [Headway](https://github.com/headwaymaps/headway), but you can easily set up your own server on a smaller scale for your own personal use by running just a few commands.
 
 ```
-$ earthly -P +build --area=Amsterdam --country=NL
+$ earthly -P +build --area=Amsterdam
 $ cp .env-example .env
 $ docker-compose up -d
 ```

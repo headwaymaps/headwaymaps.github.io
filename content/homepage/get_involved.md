@@ -1,5 +1,5 @@
 ---
-title: "Get Involved"
+title: "Get involved"
 weight: 4
 header_menu: true
 ---

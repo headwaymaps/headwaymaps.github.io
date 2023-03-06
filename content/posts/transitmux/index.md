@@ -76,7 +76,7 @@ Other Headway deployments can add as many (or as few) transit regions as they'd 
 
 There are definitely some fun computational problems to address if we were to add a lot of new transit zones, however there are some perhaps less fun problems more immediately.
 
-## Fun Problems
+## Fun problems
 
 The current approach is very simplistic and has some obvious limitations.
 
@@ -87,7 +87,7 @@ Another challenge might be megalopolises where transit regions sort of meld into
 
 Maybe the most obvious problem of all, with these two zones, maps.earth only covers about 0.1% of global transit users.
 
-# Less Fun Problems
+# Less fun problems
 
 That brings me to the less fun problems. How do we get more coverage? We could continue to just add more zones, but due to the hungry nature of the underlying data structures, we'll quickly run into the limits of our computing budget.
 

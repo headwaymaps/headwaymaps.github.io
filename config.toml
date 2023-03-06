@@ -1,3 +1,4 @@
+baseURL = '/'
 languageCode = 'en-us'
 title = 'maps.earth - open source maps for everyone'
 theme = "hugo-scroll"

@@ -3,9 +3,12 @@ title = 'maps.earth - open source maps for everyone'
 theme = "hugo-scroll"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+disableKinds = ["taxonomy", "term", "RSS", "robotsTXT"]
 
 defaultContentLanguage = "en"
+
+[permalinks]
+  posts = 'posts/:year/:month/:title/'
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.

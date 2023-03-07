@@ -1,7 +1,11 @@
 ---
-title: "Adding transit to maps.earth"
+title: "Adding transit directions to maps.earth"
 date: 2023-03-06T00:00:00-00:00
 ---
+
+{{< rawhtml >}}
+<span class="byline">posted by <a href="https://github.com/michaelkirk">Michael Kirk</a>, March 2023</span>
+{{</ rawhtml >}}
 
 You can use Headway to host a map area of any size — from your local town up to something larger like a province or even the entire planet.
 [maps.earth](https://maps.earth) is our planet scale demonstration of Headway.

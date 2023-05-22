@@ -85,7 +85,7 @@ The different tradeoffs between the various needs of different groups are in ten
 I think that reasonable, even well intentioned, people might come to different conclusions.
 For now anyway, Headway has punted and simply links to the openstreetmap.org editor,
 but the future of editing right in Headway is to be determined.
-We would appreciate [your input](https://github.com/headwaymaps/headway/discussions) on the matter!
+We would appreciate [your input](https://github.com/headwaymaps/headway/discussions/278) on the matter!
 
 {{<figure class="two-up first" src="garden-box.jpg" alt="The author and a friend bend over a raised garden bed, pulling weeds from the soil">}}
 {{<figure class="two-up" src="garden-grown.jpg" alt="The same garden plot from earlier in the post, with pumpkin vines sprawling over the fence, corn, flowers, and other garden plants have grown tall. It's a bit ragged over all, but verdent.">}}

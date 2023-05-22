@@ -99,7 +99,7 @@ We work to make Headway practical to host on a modest machine. I think we've had
 
 Transit in particular is likely to be out of reach for most beyond a regional deployment or two.
 
-If you'd like to see maps.earth add transit support for a new area, and would be willing to help test it out, please [contact us](info@maps.earth) or [file an issue](https://github.com/headwaymaps/headway/issues/new).
+If you'd like to see maps.earth add transit support for a new area, and would be willing to help test it out, please [contact us](mailto:info@maps.earth) or [file an issue](https://github.com/headwaymaps/headway/issues/new).
 Realistically though, we'll only be able to add a couple small areas without some recurring donations to help pay our server bills. It might be interesting to see how far we can get with this approach.
 
 ## What's next for public transit in Headway?

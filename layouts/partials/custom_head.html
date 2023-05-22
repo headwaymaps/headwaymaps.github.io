@@ -5,56 +5,91 @@
      You may use this template to add custom CSS to your site like so: -->
 
 <style>
-
     #site-head {
         background-color: #161238;
     }
-     /* Links */
-     a:hover {
-         color: #b6b84c;
-     }
+    /* Links */
+    a:hover {
+        color: #b6b84c;
+    }
 
-     /* Header Buttons on Startpage */
-     a.btn {
-         color: white;
-          background-color: #9a9b53;
-     }
-     a.btn:hover {
-          background-color: #7b7b45;
-     }
+    /* Header Buttons on Startpage */
+    a.btn {
+        color: white;
+        background-color: #9a9b53;
+    }
+    a.btn:hover {
+        background-color: #7b7b45;
+    }
 
-     /* Scroll Menu on Startpage */
-     a.fn-item.active {
-          color: #b6b84c;
-     }
-     a.fn-item:hover {
-          color: #ced067;
-     }
+    /* Scroll Menu on Startpage */
+    a.fn-item.active {
+        color: #b6b84c;
+    }
+    a.fn-item:hover {
+        color: #ced067;
+    }
 
-     /* Content / Sections */
-     .post-holder.odd {
-          background: #161238;
-          color: white;
-     }
-     .post-holder {
-          background: #f2efe8;
-     }
-     .post figure.screenshot img {
-           box-shadow: 0 0 16px #333;
-     }
-     body {
-          color: #3A4145;
-     }
+    /* Content / Sections */
+    .post-holder.odd {
+        background: #161238;
+        color: white;
+    }
+    .post-holder {
+        background: #f2efe8;
+    }
+    .post figure.screenshot img {
+        box-shadow: 0 0 16px #333;
+        border-radius: 4px;
+    }
 
-     /* Footer */
-     .site-footer {
-          color: #BBC7CC;
-          background-color: #22343A;
-     }
-     .byline {
-         font-size: 80%;
-         font-style: italic;
-     }
+    @media only screen and (max-device-width: 600px)
+    {
+        .post figure.two-up {
+            height: 350px;
+        }
+    }
+
+    .post figure.two-up {
+        width: calc(50% - 4px);
+        /**
+         * This pre-supposes a range of acceptable aspect ratios.
+         * Square or slightly less tall than a square. I think
+         * that's probably a reasonable limitation for "side-by-side" images.
+         *
+         * We could revisit this limitation by allowing figures in a proper
+         * container, but I'm not sure how to do that with this site generator.
+         */
+        height: 200px;
+        float: left;
+        margin-bottom: 8px;
+    }
+
+    .post figure.two-up img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .post figure.two-up.first {
+        margin-right: 8px;
+    }
+    .post h2 {
+        margin-top: 32px;
+    }
+    body {
+        color: #3A4145;
+    }
+
+    /* Footer */
+    .site-footer {
+        color: #BBC7CC;
+        background-color: #22343A;
+    }
+    .byline {
+        font-size: 80%;
+        font-style: italic;
+    }
 </style>
 
 <!-- Custom CSS via "custom.css"-file
